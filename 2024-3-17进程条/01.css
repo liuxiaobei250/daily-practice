@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    /* 垂直居中 */
+    align-items: center;        
+    /* 水平居中 */
+   justify-content: center;
+   /* 体积高度 */
+   height: 50vh;
+   overflow: hidden;
+   margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    text-align: center;
+}
+
+/* 让里面的元素成横条 */
+.number {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    max-width: 100%;
+    width: 350px;
+}
